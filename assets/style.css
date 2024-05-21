@@ -1,0 +1,272 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+  background-image: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-attachment: fixed;
+  object-fit: cover;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.welcome {
+  width: 450px;
+  height: 500px;
+  background-color: #005776;
+  color: #f1fbff;
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 350px;
+}
+
+.texto_cad {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 2rem;
+  margin: -1rem 2rem 1.5rem 2rem;
+}
+
+.button_cad {
+  text-transform: uppercase;
+  width: 17rem;
+  height: 2.5rem;
+  border-radius: 20px;
+  background: transparent;
+  color: #f1fbff;
+  border: 1px solid #f1fbff;
+  font-weight: bold;
+}
+
+.button_cad:hover {
+  background-color: #f1fbff;
+  color: rgb(0, 87, 118);
+  transition: 500ms;
+}
+
+.form {
+  width: 510px;
+  height: 500px;
+  backdrop-filter: blur(10px);
+  background: #00000080;
+  color: #f1fbff;
+  border-radius: 0 10px 10px 0;
+}
+
+.login {
+  display: flex;
+  gap: 1rem;
+  margin-top: -17px;
+}
+
+.description {
+  font-size: 15px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.email,
+.senha {
+  width: 20rem;
+  height: 1.5rem;
+  border-radius: 20px;
+  background: transparent;
+  border: 1px solid #f1fbff;
+  color: #f1fbff;
+  padding: 0.7rem 0 0.7rem 2.3rem;
+  outline: none;
+  font-size: 15px;
+  margin-block: 0.5rem;
+}
+
+.email::placeholder,
+.senha::placeholder {
+  color: #e4f4f1c5;
+}
+
+.icone {
+  position: absolute;
+  left: 4.7rem;
+}
+
+.icon_email {
+  top: 12.5rem;
+  width: 1.1rem;
+}
+.icon_senha {
+  top: 18.6rem;
+  width: 1.2rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkbox-label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  user-select: none;
+  color: #f1fbff;
+  font-size: 13px;
+}
+
+.checkbox-label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 17px;
+  height: 17px;
+  border: 1px solid #f1fbff;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.checkbox:checked + .checkbox-label::before {
+  background-color: #005776;
+  border-color: #005776;
+}
+
+.checkbox:checked + .checkbox-label::after {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  width: 3px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+}
+
+span a {
+  text-decoration: none;
+  color: #f1fbff;
+  font-size: 12px;
+}
+
+span a:hover {
+  text-decoration: underline;
+}
+
+.submit {
+  border-radius: 30px;
+  border: none;
+  background-color: #005776;
+  color: #f1fbff;
+  width: 75%;
+  height: 2.7rem;
+  margin-top: 0.5rem;
+}
+
+.submit:hover {
+  border: 1px solid #f1fbff;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    top: 62%;
+    width: 100%;
+  }
+  .welcome {
+    width: 510px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-image: url("https://images.unsplash.com/photo-1610374792793-f016b77ca51a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    top: 65%;
+    width: 100%;
+  }
+
+  .welcome {
+    width: 100%;
+    height: 55vh;
+  }
+
+  .texto_cad {
+    font-size: 17px;
+    margin: -1rem 2rem -0.5rem 2rem;
+  }
+
+  .button_cad {
+    text-transform: uppercase;
+    width: 14rem;
+    height: 3rem;
+    margin-bottom: 34px;
+  }
+
+  .form {
+    width: 100%;
+    height: 90%;
+  }
+
+  .email,
+  .senha {
+    width: 19rem;
+  }
+
+  .icone {
+    left: 1.7rem;
+  }
+
+  .icon_email {
+    top: 13.6rem;
+  }
+
+  .icon_senha {
+    top: 19.7rem;
+  }
+
+  .submit {
+    width: 100%;
+  }
+}
