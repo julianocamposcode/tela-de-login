@@ -270,6 +270,10 @@ span a:hover {
     top: 19.7rem;
   }
 
+  .footer {
+        width: 135%;
+    }
+
   .submit {
     width: 100%;
   }
