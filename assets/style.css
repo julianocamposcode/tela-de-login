@@ -213,6 +213,10 @@ span a:hover {
   .welcome {
     width: 510px;
   }
+  
+  .form, .welcome {
+    border-radius: 0;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -254,7 +258,6 @@ span a:hover {
     width: 19rem;
   }
 
-  
   .icone {
     left: 1.3rem;
   }
