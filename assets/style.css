@@ -5,8 +5,8 @@
 body {
   background: rgba(0, 0, 0, 0.4);
   background-blend-mode: darken;
-  /* background-image: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
-  background-image: url("https://source.unsplash.com/1600x900/?company");
+  background-image: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  /* background-image: url("https://source.unsplash.com/1600x900/?company"); */
   background-size: cover;
   background-attachment: fixed;
   object-fit: cover;
@@ -596,7 +596,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .container {
     display: flex;
     flex-direction: column;
