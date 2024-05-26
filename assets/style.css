@@ -982,6 +982,12 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
 }
 
 @media screen and (max-width: 370px) {
+  .container {
+    top: 26rem;
+  }
+  .container2 {
+    top: 37rem;
+  }
   .email,
   .senha {
     width: 15.5rem;
