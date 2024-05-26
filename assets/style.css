@@ -569,7 +569,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
 
 .error_auth {
   position: absolute;
-  top: 27.5rem;
+  top: 28rem;
   color: red;
   font-size: 13px;
 }
@@ -619,7 +619,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
   }
 
   .container2 {
-    top: 40rem;
+    top: 39rem;
     flex-direction: column-reverse;
   }
 
