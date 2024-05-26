@@ -309,7 +309,7 @@ function verificaCamposCad() {
 }
 
 function verificaCampoNomeCad(palavra) {
-    let nomeRegex = /^[A-Za-zÁ-Úá-ú]+(?: [A-Za-zÁ-Úá-ú]+)+$/;
+    let nomeRegex = /^[A-Za-zÁ-Úá-ú]+(?: [A-Za-zÁ-Úá-ú]+)*\s*$/;
     let mensagemErroNome = document.querySelector('.error_nome')
     if (nomeCad.value == '' || !nomeRegex.test(nomeCad.value)) {
         if (!mensagemErroNome) {
