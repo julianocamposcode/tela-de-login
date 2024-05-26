@@ -619,7 +619,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
   }
 
   .container2 {
-    top: 43rem;
+    top: 40rem;
     flex-direction: column-reverse;
   }
 
