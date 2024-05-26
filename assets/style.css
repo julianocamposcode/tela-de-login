@@ -597,7 +597,6 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
 }
 
 @media screen and (max-width: 600px) {
-
   .formCad {
     gap: 1rem;
   }
@@ -620,7 +619,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
   }
 
   .container2 {
-    top: 38rem;
+    top: 40rem;
     flex-direction: column-reverse;
   }
 
@@ -701,7 +700,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
     position: absolute;
     color: red;
     font-size: 9px;
-    top: 15.4rem;
+    top: 15.6rem;
     left: 3.2rem;
   }
 
@@ -709,14 +708,15 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
     position: absolute;
     color: red;
     font-size: 9px;
-    top: 20.6rem;
+    top: 21.5rem;
     left: 3.2rem;
   }
+
   .error_senha {
     position: absolute;
     color: red;
     font-size: 9px;
-    top: 26rem;
+    top: 27.3rem;
     left: 3.2rem;
   }
 
