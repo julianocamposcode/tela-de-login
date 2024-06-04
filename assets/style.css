@@ -990,7 +990,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
       transform: translateY(0);
     }
     to {
-      transform: translateY(60vh);
+      transform: translateY(67vh);
     }
   }
 
@@ -1017,7 +1017,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
       transform: translateY(0);
     }
     to {
-      transform: translateY(-75vh);
+      transform: translateY(-70vh);
     }
   }
 }
