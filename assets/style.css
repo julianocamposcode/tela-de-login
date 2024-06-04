@@ -990,7 +990,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
       transform: translateY(0);
     }
     to {
-      transform: translateY(67vh);
+      transform: translateY(55vh);
     }
   }
 
@@ -999,7 +999,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
       transform: translateY(0);
     }
     to {
-      transform: translateY(-60vh);
+      transform: translateY(-50vh);
     }
   }
 
@@ -1008,7 +1008,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
       transform: translateY(0);
     }
     to {
-      transform: translateY(55vh);
+      transform: translateY(45vh);
     }
   }
 
@@ -1017,7 +1017,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
       transform: translateY(0);
     }
     to {
-      transform: translateY(-79vh);
+      transform: translateY(-69vh);
     }
   }
 }
@@ -1072,7 +1072,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
     color: red;
     font-size: 12px;
     top: 12.5rem;
-    left: 3.3rem;
+    left: 3rem;
   }
 
   .error2 {
@@ -1080,6 +1080,6 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
     color: red;
     font-size: 12px;
     top: 19rem;
-    left: 3.3rem;
+    left: 3rem;
   }
 }
