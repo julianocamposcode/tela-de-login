@@ -726,23 +726,23 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
   }
 
   .error_nome {
-    position: relative;
+    position: absolute;
     color: red;
     font-size: 9px;
-    top: -16.8rem;
-    left: -6rem;
+    top: 13rem;
+    left: 2rem;
   }
 
   .error_email {
-    position: relative;
+    position: absolute;
     color: red;
     font-size: 9px;
-    top: -14.2rem;
-    left: -6rem;
+    top: 18.3rem;
+    left: 2rem;
   }
 
   /* .error_tel {
-    position: relative;
+    position: absolute;
     color: red;
     font-size: 9px;
     top: 21.5rem;
@@ -750,11 +750,11 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
   } */
 
   .error_senha {
-    position: relative;
+    position: absolute;
     color: red;
     font-size: 9px;
-    top: -11.5rem;
-    left: -6.7rem;
+    top: 23.7rem;
+    left: 2rem;
   }
 
   .loadingCad {
@@ -987,7 +987,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
       transform: translateY(0);
     }
     to {
-      transform: translateY(80vh);
+      transform: translateY(67vh);
     }
   }
 
@@ -996,7 +996,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
       transform: translateY(0);
     }
     to {
-      transform: translateY(-51vh);
+      transform: translateY(-60vh);
     }
   }
 
@@ -1014,7 +1014,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
       transform: translateY(0);
     }
     to {
-      transform: translateY(-100vh);
+      transform: translateY(-79vh);
     }
   }
 }
