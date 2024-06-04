@@ -622,11 +622,11 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
     gap: 1rem;
     margin-top: -10px;
   }
-  
+
   .description {
     font-size: 13px;
     text-align: center;
-    margin-block: .5rem;
+    margin-block: 0.5rem;
   }
   .container {
     display: flex;
@@ -637,7 +637,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
   }
 
   .input {
-    width: 18rem !important;
+    /* width: 18rem !important; */
     height: 1.4rem !important;
     border-radius: 17px;
   }
@@ -674,7 +674,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
 
   .grupo {
     flex-direction: column;
-    gap: .5rem !important;
+    gap: 0.5rem !important;
   }
 
   .icone {
@@ -688,7 +688,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
     position: relative;
     gap: 4.3rem;
     top: 13.6rem;
-    right: 8.8rem;
+    right: 7.6rem;
   }
 
   .icone_nome {
@@ -717,7 +717,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
   .relative {
     position: relative;
     top: -25.8rem;
-    left: -2.4rem;
+    left: -4.7rem;
   }
 
   .olhoM {
@@ -815,7 +815,10 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
   }
 
   .email,
-  .senha {
+  .senha,
+  .email2,
+  .nome,
+  .senha2 {
     width: 18rem;
   }
 
@@ -1021,11 +1024,62 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
 
 @media screen and (max-width: 370px) {
   .email,
-  .senha {
+  .senha,
+  .email2,
+  .senha2,
+  .nome {
     width: 15.5rem;
   }
 
   .logo {
     width: 330px;
+  }
+
+  .error_nome {
+    position: absolute;
+    color: red;
+    font-size: 9px;
+    top: 13rem;
+    left: 2.5rem;
+  }
+
+  .error_email {
+    position: absolute;
+    color: red;
+    font-size: 9px;
+    top: 18.3rem;
+    left: 2.5rem;
+  }
+
+  /* .error_tel {
+    position: absolute;
+    color: red;
+    font-size: 9px;
+    top: 21.5rem;
+    left: 2.5rem;
+  } */
+
+  .error_senha {
+    position: absolute;
+    color: red;
+    font-size: 9px;
+    top: 23.7rem;
+    left: 2.5rem;
+  }
+
+  .error {
+    position: absolute;
+    color: red;
+    font-size: 12px;
+    top: 12.5rem;
+    left: 3.3rem;
+  }
+
+  .error2 {
+    position: absolute;
+    color: red;
+    font-size: 12px;
+    top: 19rem;
+    left: 3.3rem;
   }
 }
