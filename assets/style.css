@@ -1008,7 +1008,7 @@ div:where(.swal2-container) div:where(.swal2-timer-progress-bar) {
       transform: translateY(0);
     }
     to {
-      transform: translateY(50vh);
+      transform: translateY(55vh);
     }
   }
 
